@@ -1,0 +1,47 @@
+
+// example main function
+int main()
+{
+  //your code
+ int choice;
+    int N;
+    cin>>N;
+    //use endl after cout
+    while(N>0)
+    {
+        N--;
+        cin>>choice;
+        if(choice==1)
+        {  
+           // insert    
+        }
+        else if(choice==2)
+        {
+            // remove
+        }
+        else if(choice==3)
+        {
+           // cout search
+        }
+         else if(choice==4)
+        { 
+           // cout count occurence
+        }
+        else if(choice ==5)
+        {
+           // your cout for lower bound
+        }
+        else if(choice ==6)
+        {  
+            // your cout for upperbound
+        }
+        else if(choice ==7)
+        {
+            // your cout for closest element
+        }
+        else
+            break;
+    }
+    // your code
+    return 0;
+}
